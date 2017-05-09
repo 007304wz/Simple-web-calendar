@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div>
+      Year<select id="select_year" onchange="changeDate()"></select>
+      Month<select id='select_month' onchange="changeDate()"></select>
+      <br />
+      <button onclick="prevMonth()">prev month</button>
+      <button onclick="prevYear()">prev year</button>
+      <button onclick="nextMonth()">next month</button>
+      <button onclick="nextYear()">next year</button>
+    </div>
+    
+    <table id="table"></table>
+  </body>
+
+</html>

@@ -1,0 +1,18 @@
+/* Styles go here */
+
+/* Styles go here */
+
+table, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 50%;
+}
+
+td {
+  text-align:center;
+  width:42px;
+  font-size:30%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
